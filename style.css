@@ -48,14 +48,30 @@ h3{
 #planos{
     background-color:lightblue;
     height: 200px;
-    padding-left: 65px;
     font-family: 'Times New Roman', Times, serif;
-    
+    margin-top: 20px;
+    display: flex;
 }
+
+#planos:hover {
+    background-color:#3185a1;
+}
+
+#planosConteudo {
+    margin: 0 auto;
+}
+
+#planosConteudo p{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
 
 
 #ESME{
     color: aqua;
+    font-size: 2em;
     
 
 }
@@ -81,7 +97,11 @@ h3{
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 6px;
+    
 } 
+.botão:hover{
+    box-shadow: 0px 0px 10px black;
+}
 
 .sobre{
     background-image: url(./Imagem/Capa.jpeg);
@@ -119,24 +139,26 @@ figure{
     gap: 2em;
     margin: 2em;
     border-radius: 20px;
-    padding-left: 40px;
 
 }
   
 .rectangle {
-    width: 24rem;
+    width: 30rem;
     height: 14rem;
     background: rgb(0, 119, 128);
     padding-left: 5px;
     align-items: center;
+    box-shadow: 0px 0px 20px rgb(80 80 80);
+    border-radius: 3px;
 }
 
 .rectangle:hover{
-    background-color: aquamarine;
+    background-color: black;
 }
 
 #menu{
     padding-left: 1300px;
+    display: flex;
 }
 
 .experimente{
@@ -158,6 +180,8 @@ figure{
     background-color:darkcyan ;
     margin: 30px;
     padding: 1px;
+    
+
 
 }
 
